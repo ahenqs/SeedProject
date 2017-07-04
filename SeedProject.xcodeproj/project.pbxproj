@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B75996461F0B93F20021B8C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996451F0B93F20021B8C9 /* AppDelegate.swift */; };
-		B75996481F0B93F20021B8C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996471F0B93F20021B8C9 /* ViewController.swift */; };
 		B759964B1F0B93F20021B8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75996491F0B93F20021B8C9 /* Main.storyboard */; };
 		B759964D1F0B93F20021B8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B759964C1F0B93F20021B8C9 /* Assets.xcassets */; };
 		B75996501F0B93F20021B8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B759964E1F0B93F20021B8C9 /* LaunchScreen.storyboard */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		B75996421F0B93F20021B8C9 /* SeedProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeedProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75996451F0B93F20021B8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B75996471F0B93F20021B8C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B759964A1F0B93F20021B8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B759964C1F0B93F20021B8C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B759964F1F0B93F20021B8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,12 +72,14 @@
 			isa = PBXGroup;
 			children = (
 				B75996451F0B93F20021B8C9 /* AppDelegate.swift */,
-				B75996471F0B93F20021B8C9 /* ViewController.swift */,
-				B759965D1F0B96F30021B8C9 /* Start */,
-				B75996491F0B93F20021B8C9 /* Main.storyboard */,
-				B759964C1F0B93F20021B8C9 /* Assets.xcassets */,
-				B759964E1F0B93F20021B8C9 /* LaunchScreen.storyboard */,
-				B75996511F0B93F20021B8C9 /* Info.plist */,
+				B759966F1F0B9A0B0021B8C9 /* View Controllers */,
+				B759966E1F0B9A060021B8C9 /* Views */,
+				B759966D1F0B99FF0021B8C9 /* Data Managers */,
+				B759966C1F0B99F90021B8C9 /* Models */,
+				B759966B1F0B99F30021B8C9 /* View Models */,
+				B759966A1F0B99EC0021B8C9 /* Services */,
+				B75996701F0B9A320021B8C9 /* Storyboards */,
+				B75996711F0B9A3D0021B8C9 /* Resources */,
 			);
 			path = SeedProject;
 			sourceTree = "<group>";
@@ -93,17 +93,70 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B759965D1F0B96F30021B8C9 /* Start */ = {
+		B759966A1F0B99EC0021B8C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B75996631F0B970D0021B8C9 /* SongService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		B759966B1F0B99F30021B8C9 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				B75996621F0B970D0021B8C9 /* SongViewModel.swift */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		B759966C1F0B99F90021B8C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B75996611F0B970D0021B8C9 /* Song.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B759966D1F0B99FF0021B8C9 /* Data Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B75996601F0B970D0021B8C9 /* SongDataManager.swift */,
+			);
+			name = "Data Managers";
+			sourceTree = "<group>";
+		};
+		B759966E1F0B9A060021B8C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B759965F1F0B970D0021B8C9 /* SongCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B759966F1F0B9A0B0021B8C9 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				B759965E1F0B970D0021B8C9 /* SongsViewController.swift */,
-				B759965F1F0B970D0021B8C9 /* SongCell.swift */,
-				B75996601F0B970D0021B8C9 /* SongDataManager.swift */,
-				B75996611F0B970D0021B8C9 /* Song.swift */,
-				B75996621F0B970D0021B8C9 /* SongViewModel.swift */,
-				B75996631F0B970D0021B8C9 /* SongService.swift */,
 			);
-			name = Start;
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B75996701F0B9A320021B8C9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B75996491F0B93F20021B8C9 /* Main.storyboard */,
+				B759964E1F0B93F20021B8C9 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B75996711F0B9A3D0021B8C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B759964C1F0B93F20021B8C9 /* Assets.xcassets */,
+				B75996511F0B93F20021B8C9 /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +255,6 @@
 				B75996681F0B970D0021B8C9 /* SongViewModel.swift in Sources */,
 				B75996671F0B970D0021B8C9 /* Song.swift in Sources */,
 				B75996651F0B970D0021B8C9 /* SongCell.swift in Sources */,
-				B75996481F0B93F20021B8C9 /* ViewController.swift in Sources */,
 				B75996691F0B970D0021B8C9 /* SongService.swift in Sources */,
 				B75996641F0B970D0021B8C9 /* SongsViewController.swift in Sources */,
 				B75996661F0B970D0021B8C9 /* SongDataManager.swift in Sources */,
