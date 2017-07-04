@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B75996411F0B93F20021B8C9"
-               BuildableName = "SeedProject.app"
-               BlueprintName = "SeedProject"
-               ReferencedContainer = "container:SeedProject.xcodeproj">
+               BlueprintIdentifier = "B75995AC1F0B848E0021B8C9"
+               BuildableName = "AHQSView.framework"
+               BlueprintName = "AHQSView"
+               ReferencedContainer = "container:AHQSView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B75996411F0B93F20021B8C9"
-            BuildableName = "SeedProject.app"
-            BlueprintName = "SeedProject"
-            ReferencedContainer = "container:SeedProject.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B75996411F0B93F20021B8C9"
-            BuildableName = "SeedProject.app"
-            BlueprintName = "SeedProject"
-            ReferencedContainer = "container:SeedProject.xcodeproj">
+            BlueprintIdentifier = "B75995AC1F0B848E0021B8C9"
+            BuildableName = "AHQSView.framework"
+            BlueprintName = "AHQSView"
+            ReferencedContainer = "container:AHQSView.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B75996411F0B93F20021B8C9"
-            BuildableName = "SeedProject.app"
-            BlueprintName = "SeedProject"
-            ReferencedContainer = "container:SeedProject.xcodeproj">
+            BlueprintIdentifier = "B75995AC1F0B848E0021B8C9"
+            BuildableName = "AHQSView.framework"
+            BlueprintName = "AHQSView"
+            ReferencedContainer = "container:AHQSView.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

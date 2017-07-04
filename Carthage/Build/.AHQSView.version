@@ -1,0 +1,18 @@
+{
+  "iOS" : [
+    {
+      "hash" : "9bae03c3756fb55f2225081a2dc9fbdc9151ecd23680e1dfcadf60433d8ae539",
+      "name" : "AHQSView"
+    }
+  ],
+  "commitish" : "0.2",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}

@@ -1,0 +1,10 @@
+framework module AHQSView {
+  umbrella header "AHQSView.h"
+
+  export *
+  module * { export * }
+}
+
+module AHQSView.Swift {
+    header "AHQSView-Swift.h"
+}

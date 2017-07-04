@@ -1,0 +1,10 @@
+framework module AHQSNetworking {
+  umbrella header "AHQSNetworking.h"
+
+  export *
+  module * { export * }
+}
+
+module AHQSNetworking.Swift {
+    header "AHQSNetworking-Swift.h"
+}

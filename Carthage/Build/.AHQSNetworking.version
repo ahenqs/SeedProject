@@ -1,0 +1,18 @@
+{
+  "iOS" : [
+    {
+      "hash" : "6a79fc931a04e6a9ef0e106a92cb4079f5a734a72df74a175464983e8166abc1",
+      "name" : "AHQSNetworking"
+    }
+  ],
+  "commitish" : "0.2",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}

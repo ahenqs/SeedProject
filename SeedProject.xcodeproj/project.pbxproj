@@ -12,6 +12,14 @@
 		B759964B1F0B93F20021B8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75996491F0B93F20021B8C9 /* Main.storyboard */; };
 		B759964D1F0B93F20021B8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B759964C1F0B93F20021B8C9 /* Assets.xcassets */; };
 		B75996501F0B93F20021B8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B759964E1F0B93F20021B8C9 /* LaunchScreen.storyboard */; };
+		B759965A1F0B96AA0021B8C9 /* AHQSNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75996581F0B96AA0021B8C9 /* AHQSNetworking.framework */; };
+		B759965B1F0B96AA0021B8C9 /* AHQSView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75996591F0B96AA0021B8C9 /* AHQSView.framework */; };
+		B75996641F0B970D0021B8C9 /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759965E1F0B970D0021B8C9 /* SongsViewController.swift */; };
+		B75996651F0B970D0021B8C9 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759965F1F0B970D0021B8C9 /* SongCell.swift */; };
+		B75996661F0B970D0021B8C9 /* SongDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996601F0B970D0021B8C9 /* SongDataManager.swift */; };
+		B75996671F0B970D0021B8C9 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996611F0B970D0021B8C9 /* Song.swift */; };
+		B75996681F0B970D0021B8C9 /* SongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996621F0B970D0021B8C9 /* SongViewModel.swift */; };
+		B75996691F0B970D0021B8C9 /* SongService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75996631F0B970D0021B8C9 /* SongService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		B759964C1F0B93F20021B8C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B759964F1F0B93F20021B8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B75996511F0B93F20021B8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75996581F0B96AA0021B8C9 /* AHQSNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AHQSNetworking.framework; path = Carthage/Build/iOS/AHQSNetworking.framework; sourceTree = "<group>"; };
+		B75996591F0B96AA0021B8C9 /* AHQSView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AHQSView.framework; path = Carthage/Build/iOS/AHQSView.framework; sourceTree = "<group>"; };
+		B759965E1F0B970D0021B8C9 /* SongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; };
+		B759965F1F0B970D0021B8C9 /* SongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		B75996601F0B970D0021B8C9 /* SongDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDataManager.swift; sourceTree = "<group>"; };
+		B75996611F0B970D0021B8C9 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		B75996621F0B970D0021B8C9 /* SongViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewModel.swift; sourceTree = "<group>"; };
+		B75996631F0B970D0021B8C9 /* SongService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B759965A1F0B96AA0021B8C9 /* AHQSNetworking.framework in Frameworks */,
+				B759965B1F0B96AA0021B8C9 /* AHQSView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,7 @@
 			children = (
 				B75996441F0B93F20021B8C9 /* SeedProject */,
 				B75996431F0B93F20021B8C9 /* Products */,
+				B75996571F0B96AA0021B8C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +75,35 @@
 			children = (
 				B75996451F0B93F20021B8C9 /* AppDelegate.swift */,
 				B75996471F0B93F20021B8C9 /* ViewController.swift */,
+				B759965D1F0B96F30021B8C9 /* Start */,
 				B75996491F0B93F20021B8C9 /* Main.storyboard */,
 				B759964C1F0B93F20021B8C9 /* Assets.xcassets */,
 				B759964E1F0B93F20021B8C9 /* LaunchScreen.storyboard */,
 				B75996511F0B93F20021B8C9 /* Info.plist */,
 			);
 			path = SeedProject;
+			sourceTree = "<group>";
+		};
+		B75996571F0B96AA0021B8C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B75996581F0B96AA0021B8C9 /* AHQSNetworking.framework */,
+				B75996591F0B96AA0021B8C9 /* AHQSView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B759965D1F0B96F30021B8C9 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				B759965E1F0B970D0021B8C9 /* SongsViewController.swift */,
+				B759965F1F0B970D0021B8C9 /* SongCell.swift */,
+				B75996601F0B970D0021B8C9 /* SongDataManager.swift */,
+				B75996611F0B970D0021B8C9 /* Song.swift */,
+				B75996621F0B970D0021B8C9 /* SongViewModel.swift */,
+				B75996631F0B970D0021B8C9 /* SongService.swift */,
+			);
+			name = Start;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +116,7 @@
 				B759963E1F0B93F20021B8C9 /* Sources */,
 				B759963F1F0B93F20021B8C9 /* Frameworks */,
 				B75996401F0B93F20021B8C9 /* Resources */,
+				B759965C1F0B96B60021B8C9 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -132,12 +175,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B759965C1F0B96B60021B8C9 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AHQSView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AHQSNetworking.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B759963E1F0B93F20021B8C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75996681F0B970D0021B8C9 /* SongViewModel.swift in Sources */,
+				B75996671F0B970D0021B8C9 /* Song.swift in Sources */,
+				B75996651F0B970D0021B8C9 /* SongCell.swift in Sources */,
 				B75996481F0B93F20021B8C9 /* ViewController.swift in Sources */,
+				B75996691F0B970D0021B8C9 /* SongService.swift in Sources */,
+				B75996641F0B970D0021B8C9 /* SongsViewController.swift in Sources */,
+				B75996661F0B970D0021B8C9 /* SongDataManager.swift in Sources */,
 				B75996461F0B93F20021B8C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -264,6 +332,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6X6HFEJA72;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SeedProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahenqs.SeedProject;
@@ -277,6 +349,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6X6HFEJA72;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SeedProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahenqs.SeedProject;
@@ -304,6 +380,7 @@
 				B75996561F0B93F20021B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
